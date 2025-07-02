@@ -262,7 +262,7 @@
 </template>
 
 <script setup lang="ts">
-    import ogImage from '~/assets/frontPage.png'
+    import ogImage from '~/assets/frontPage.jpg'
     const pageTitle = 'EKKLESIA WORSHIP CENTER'
     const pageDescription = "The term church often conjures images of steeples, stained-glass windows, or a specific denomination. But what if we told you that the biblical understanding of church goes far deeper, reaching back into the very heart of God's redemptive plan for humanity? The Greek word for church is ekklesia, and its meaning is far more profound than just a building or an organization. It signifies a called-out assembly, a people summoned by God for His purposes."
 
