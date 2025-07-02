@@ -262,16 +262,15 @@
 </template>
 
 <script setup lang="ts">
+    import ogImage from '~/assets/frontPage.png'
+    const pageTitle = 'EKKLESIA WORSHIP CENTER'
+    const pageDescription = "The term church often conjures images of steeples, stained-glass windows, or a specific denomination. But what if we told you that the biblical understanding of church goes far deeper, reaching back into the very heart of God's redemptive plan for humanity? The Greek word for church is ekklesia, and its meaning is far more profound than just a building or an organization. It signifies a called-out assembly, a people summoned by God for His purposes."
 
-const pageTitle = 'EKKLESIA WORSHIP CENTER'
-const pageDescription = "The term church often conjures images of steeples, stained-glass windows, or a specific denomination. But what if we told you that the biblical understanding of church goes far deeper, reaching back into the very heart of God's redemptive plan for humanity? The Greek word for church is ekklesia, and its meaning is far more profound than just a building or an organization. It signifies a called-out assembly, a people summoned by God for His purposes."
-const pageOgImage = 'https://www.ekklesiainternational.com/'+require('~/assets/frontPage.png')
-
-useSeoMeta({
-    title: pageTitle,
-    description: pageDescription,
-    ogImage: pageOgImage,
-    ogTitle: pageTitle,
-    ogDescription: pageDescription
-})
+    useSeoMeta({
+        title: pageTitle,
+        description: pageDescription,
+        ogImage: ogImage,
+        ogTitle: pageTitle,
+        ogDescription: pageDescription
+    })
 </script>

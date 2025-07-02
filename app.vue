@@ -1,8 +1,10 @@
 <template>
   <NuxtRouteAnnouncer />
-    <Header />
+  <Header />
+  <NuxtLayout>
     <NuxtPage />
-    <Footer />
+  </NuxtLayout>
+  <Footer />
 </template>
 
 <style scoped>
