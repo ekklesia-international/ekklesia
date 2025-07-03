@@ -28,68 +28,24 @@ const items = ref<NavigationMenuItem[]>([
         to: '/',
         active: isActive('/')
     },
-    // {
-    //     label: 'Significance',
-    //     icon: 'i-lucide-book-open',
-    //     to: '/bibilical-significance',
-    //     children: [
-    //         {
-    //             label: 'defineShortcuts',
-    //             icon: 'i-lucide-database',
-    //             description: 'Define shortcuts for your application.',
-    //             to: '/bibilical-significance/number-40'
-    //         }
-    //     ]
-    // },
-    // {
-    //     label: 'Home',
-    //     icon: 'i-lucide-file-video-2',
-    //     to: '/',
-    //     active: isActive('/')
-    // },
-    // {
-    //     label: 'Significance',
-    //     icon: 'i-lucide-book-open',
-    //     to: '/bibilical-significance',
-    //     children: [
-    //         {
-    //             label: 'defineShortcuts',
-    //             icon: 'i-lucide-database',
-    //             description: 'Define shortcuts for your application.',
-    //             to: '/bibilical-significance/number-40'
-    //         }
-    //     ]
-    // },
-    // {
-    //     label: 'Home',
-    //     icon: 'i-lucide-file-video-2',
-    //     to: '/',
-    //     active: isActive('/')
-    // },
-    // {
-    //     label: 'Significance',
-    //     icon: 'i-lucide-book-open',
-    //     to: '/bibilical-significance',
-    //     children: [
-    //         {
-    //             label: 'defineShortcuts',
-    //             icon: 'i-lucide-database',
-    //             description: 'Define shortcuts for your application.',
-    //             to: '/bibilical-significance/number-40'
-    //         }
-    //     ]
-    // },
-    // {
-    //     label: 'Home',
-    //     icon: 'i-lucide-file-video-2',
-    //     to: '/',
-    //     active: isActive('/')
-    // },
+    {
+        label: 'Biblical Significane',
+        icon: 'i-lucide-book-open',
+        to: '/biblical-significane',
+        children: [
+            {
+                label: 'Number 40',
+                icon: 'i-lucide-database',
+                description: '',
+                to: '/biblical-significane/number-40'
+            }
+        ]
+    },
 ])
 </script>
 
 <template>
-    <div class="shadow-lg shadow-primary/20 top-0 fixed w-full bg-white">
+    <div class="shadow-lg shadow-primary/20 top-0 fixed w-full bg-white z-50">
         <UContainer as="header" class="justify-between flex gap-5 lg:max-w-9/10  z-10">
             <div class="lg:flex-1 flex items-center gap-1.5 min-w-0 shrink md:shrink-0"><!----><!--[--><a
                     aria-current="page" href="/"
