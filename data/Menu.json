@@ -1,0 +1,15 @@
+[
+    {
+        "title": "Home",
+        "link": "/"
+    },
+    {
+        "title": "Biblical Significance",
+        "children": [
+            {
+                "title": "Number 40",
+                "link": "/biblical-significance/number-40"
+            }
+        ]
+    }
+]
