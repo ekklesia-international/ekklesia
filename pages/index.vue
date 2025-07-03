@@ -1,6 +1,6 @@
 <template>
-    <UContainer as="main" class="mx-auto text-justify w-full max-w-9/10 shadow-md pt-5 shadow-primary/20 font-[Lora]">
-        <article class="bg-white p-6 sm:p-8 text-ekklesia-brown bg-primary">
+    <UContainer as="main" class="mx-auto text-justify w-full max-w-9/10 shadow-md pt-25 shadow-primary/20 font-[Lora]">
+        <article class="bg-white p-1 sm:p-8 text-ekklesia-brown bg-primary">
 
             <!-- Introduction -->
             <p class="mb-6 text-lg">
