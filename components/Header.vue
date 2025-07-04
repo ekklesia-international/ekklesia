@@ -70,7 +70,7 @@ const items = ref<NavigationMenuItem[]>([
         </UContainer>
         <div class="w-full bg-opacity-25 bg-cover fixed top-16 bg-white min-h-4/10 lg:hidden" v-if="openMobileMenu"
         :style="`background-image:linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 230, 200, 0.9)), url(${headerImage})`">
-            <UNavigationMenu :items="items"  orientation="vertical" :v-model="activeMenu"
+            <UNavigationMenu :items="items" @click="openMobileMenu = !openMobileMenu" orientation="vertical" :v-model="activeMenu"
                 class="w-full justify-center mt-5" highlight highlight-color="primary" :ui="uiTheme" />
         </div>
 
