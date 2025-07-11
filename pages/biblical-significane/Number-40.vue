@@ -1,7 +1,7 @@
 <template>
     <UContainer as="main" class="mx-auto text-justify w-full max-w-9/10 shadow-md pt-25 shadow-primary/20 font-[Lora] min-h-screen">
         <div class="w-full">
-        <img src="@/assets/number40.jpg" alt="Article Banner" class="w-full object-contain">
+        <img src="@/assets/number40.jpg" alt="Number 40" class="w-full object-contain">
     </div>
     <article class="bg-white text-ekklesia-brown bg-primary  text-justify pb-5">
         <header class="mb-8 text-center">

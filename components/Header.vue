@@ -34,6 +34,12 @@ const items = ref<NavigationMenuItem[]>([
         to: '/biblical-significane',
         children: [
             {
+                label: 'Number 12',
+                icon: 'i-lucide-database',
+                description: '',
+                to: '/biblical-significane/number-12'
+            },
+            {
                 label: 'Number 40',
                 icon: 'i-lucide-database',
                 description: '',
