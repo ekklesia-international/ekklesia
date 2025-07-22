@@ -10,7 +10,7 @@
         }"
       >
         <img
-          :src="`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`"
+          :src="`https://i.ytimg.com/vi/${video.id}/maxresdefault.jpg`"
           :alt="video.title"
           class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           loading="lazy"
