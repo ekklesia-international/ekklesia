@@ -9,6 +9,8 @@
 }
   
 @theme {
+    /* --aspect-shorts: 9 / 3;  */
+
     --color-ekklesia-brown:  #5F4312;
     --color-ekklesia-yellow: #ffa830;
     --color-ekklesia-yellow-50: oklch(0.8 0.16 69.05 / 0.5);

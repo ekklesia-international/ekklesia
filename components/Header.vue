@@ -7,11 +7,7 @@ import headerImage from '~/assets/frontPage.png'
 
 const openMobileMenu = ref(false)
 const route = useRoute()
-const activeMenu = ref(route.fullPath)
-
-const isActive = (menu: string) => {
-    return route.fullPath.indexOf(menu) === 0
-}
+const activeMenu = ref(route.path)
 
 const uiTheme = {
     link: 'hover:bg-amber-200 hover:text-primary hover:rounded data-[state=open]:text-primary',
@@ -25,8 +21,7 @@ const items = ref<NavigationMenuItem[]>([
     {
         label: 'Home',
         icon: 'i-lucide-home',
-        to: '/',
-        active: isActive('/')
+        to: '/'
     },
     {
         label: 'Biblical Significane',
@@ -44,6 +39,25 @@ const items = ref<NavigationMenuItem[]>([
                 icon: 'i-lucide-database',
                 description: '',
                 to: '/biblical-significane/number-40'
+            }
+        ]
+    },
+    {
+        label: 'Videos',
+        icon: 'i-lucide-film',
+        to: '#',
+        children: [
+            {
+                label: 'Shorts',
+                icon: 'i-lucide-film',
+                description: '',
+                to: '/videos/shorts'
+            },
+            {
+                label: 'Messages',
+                icon: 'i-lucide-film',
+                description: '',
+                to: '/videos/messages'
             }
         ]
     },
