@@ -13,7 +13,8 @@ import { ref } from 'vue';
 // Sample data for videos and shorts
 // In a real application, you would fetch this from an API.
 const videos = ref([
-  { id: 'fcsBRGgpQ0E', title: 'Heavenly Realms #christianity #relationships  #jesus #travel #dream #love #destiny #lifeinjesus', type: 'short', creator: 'Ekklesia Worship Center' },
+  { id: 'EwBfpWcFGR8', title: 'Number 12 #christianity #bible #life #relationships #numerology #numbers #twelve #bibleverse', type: 'short', creator: 'Ekklesia Worship Center' },
+  { id: '_i10R2lofRA', title: 'Heavenly Realms #christianity #relationships  #jesus #travel #dream #love #destiny #lifeinjesus', type: 'short', creator: 'Ekklesia Worship Center' },
   { id: 'GlyjWU_1DJE', title: 'Heavenly provision #christianity #heaven #bibleverse #relationships #jesus #love #dailybibleverse', type: 'short', creator: 'Ekklesia Worship Center' },
   { id: 'I_rGzKiYBH8', title: 'Heavenly weapons #spiritual #weapons #are #heavenly #designed #heavenly #made', type: 'short', creator: 'Ekklesia Worship Center' },
   { id: 'dtCcK2JSQVk', title: 'Heavenly fullness 👑 | #shorts #heaven #christian #christianity', type: 'short', creator: 'Ekklesia Worship Center' },
